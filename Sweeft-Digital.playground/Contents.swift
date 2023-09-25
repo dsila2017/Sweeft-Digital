@@ -153,3 +153,18 @@ zeros(N: 10)
 //   countWays(n: 3, steps: [0, 1, 0]) ➞ 1
 //   countWays(n: 4, steps: [0, 1, 1, 0]) ➞ 1
 //   countWays(n: 5, steps: [1, 1, 0, 1, 1]) ➞ 4 // (s, 1, 2, 4, 5, f), (s, 1, 2, 4, f), (s, 2, 4, 5, f), (s, 2, 4, f)  s - ხიდის ერთი მხარე, f - ხიდის მეორე მხარე
+
+func countWays(n: Int, steps: [Int]) -> Int {
+    
+//    var arr[n] = []
+//    
+//    for i in 0...n-2{
+//        if steps[i] == 0 {
+//            arr[i] = 0
+//        } else {
+//            arr[i] = arr[i+1] + arr[i+2]
+//        }
+//    }
+//    return arr[0] + arr [1]
+    return 0
+}
